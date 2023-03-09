@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(lightblue,black 5%,black 95%,lightblue );
+    color: aqua;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+    width: 90%;
+    height: 30%;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.clockNumber{
+    font-size: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .box{
+        height: 50%;
+    }
+    .title{
+        font-size: 4rem;
+    }
+    .clockNumber{
+        font-size: 5.6rem;
+    }
+}
